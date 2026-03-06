@@ -1,1 +1,16 @@
-Python CLI for trading performance analytics — FIFO P&L, R-multiples, behavioral signals, live alerts via IBKR API
+## Project Structure
+
+copilot.py
+- Main CLI entry point
+
+monitor.py
+- Monitors live trades and triggers alerts
+
+pnl.py
+- Calculates FIFO P&L and R-multiples
+
+alerts.py
+- Behavioral alert logic
+
+config.py
+- Configuration and account settings
